@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# DIO/TQI - PROJETO REACTJS - BUSCADOR DE USUÁRIOS DO GITHUB  
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/106720974/172080330-3f404ef0-acc1-4a06-86ea-3549e3c694fa.png" width="230px" />
+  </p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este repositório contém o Projeto final do Curso de ReactJS, do Bootcamp DIO/TQI, consistindo na criação de um buscador de usuários do GitHub, projeto que envolve conhecimentos em `HTML`, `CSS`, `JavaScript`, e, principalmente, de `ReactJS`.
 
-## Available Scripts
+Este projeto envolve o uso do ReactJS para criação de um front-end totalmente componentizado. 
 
-In the project directory, you can run:
+As aulas com o projeto paradigma foram brilhantemente ministradas pelo Matheus Benites, Software Engineer Front-end, que criou esse projeto do buscador (link do GitHub abaixo).
 
-### `npm start`
+Agradeço a Deus, a TQI e a DIO por mais esse projeto concluído.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## :computer: Sobre o Projeto
+###**Buscador de Usuário do GitHub**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Este projeto consiste na criação de um buscador de usuário, especificamente do GitHub.
 
-### `npm test`
+Na parte superior da página temos um campo para o usuário digitar o nome para busca no site do GitHub.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Localizado o usuário do GitHub, serão exibidos na página, na parte superior, os principais dados cadastrados no site, como nome, username, empresa, localização; além do status da conta (com o número de seguidores, o de pessoas que se está seguindo, os gists, e os repositórios).
 
-### `npm run build`
+Na página, logo abaixo desse cabeçalho, temos duas abas: *Repositories* e *Starred*.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Na aba *Repositories* temos todos os repositórios do usuário no GitHub.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Na aba *Starred* temos todos os repositórios que o usuário favoritou de outros usuários no site.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Para fazer uma nova busca, basta digitar o novo usuário e clicar no botão *"Buscar"*.
 
-### `npm run eject`
+Este é o layout do projeto:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![layout-resultado](https://user-images.githubusercontent.com/106720974/179403558-df7f6ec6-87de-4ef6-b9d7-1def5e7cefe6.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+No projeto utilizamos as bibliotecas:
+- Axios;
+- React Tabs;
+- Styled Components; e
+- Yarn.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+####**Todos os requisitos do projeto foram cumpridos.**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+*SDG*
 
-## Learn More
+## :link: Links Úteis
+[Site da TQI](https://www.tqi.com.br)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[Site da DIO](https://www.dio.me)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[GitHub do Matheus Benites](https://github.com/benits)
 
-### Code Splitting
+[React - Documentação](https://pt-br.reactjs.org/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[W3 Schools - React Tutorial](https://www.w3schools.com/react/default.asp)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[MDN Web Docs - Começando com o React](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started)
